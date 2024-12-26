@@ -11,7 +11,7 @@ import {
 import { ItemsService } from './items.service';
 import { Item } from './item.model';
 
-@Controller('api/items')
+@Controller('items')
 export class ItemsController {
   constructor(private readonly itemsService: ItemsService) {}
 
